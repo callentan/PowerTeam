@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PowerTeam.Service.Interface;
 
 namespace PowerTeam.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
