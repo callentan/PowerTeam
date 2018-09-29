@@ -68,20 +68,20 @@ namespace PowerTeam.IdentityServer
                 new TestUser
                 {
                     SubjectId = "10001",
-                    Username = "edison@hotmail.com",
-                    Password = "edisonpassword"
+                    Username = "Rabin",
+                    Password = "Rabin"
                 },
                 new TestUser
                 {
                     SubjectId = "10002",
-                    Username = "andy@hotmail.com",
-                    Password = "andypassword"
+                    Username = "Richard",
+                    Password = "Richard"
                 },
                 new TestUser
                 {
                     SubjectId = "10003",
-                    Username = "leo@hotmail.com",
-                    Password = "leopassword"
+                    Username = "Callen",
+                    Password = "J0s3ph1n3#$%"
                 }
             };
         }
