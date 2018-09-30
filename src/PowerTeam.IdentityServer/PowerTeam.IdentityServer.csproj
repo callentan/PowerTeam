@@ -5,6 +5,7 @@
     <DockerTargetOS>Linux</DockerTargetOS>
     <StartupObject>PowerTeam.IdentityServer.Program</StartupObject>
     <RootNamespace>PowerTeam.IdentityServer</RootNamespace>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,6 +27,12 @@
     <Compile Update="Program.cs">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

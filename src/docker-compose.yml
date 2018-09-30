@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  powerteam.identityserver:
+    image: ${DOCKER_REGISTRY}powerteamidentityserver
+    build:
+      context: .
+      dockerfile: PowerTeam.IdentityServer/Dockerfile
+
