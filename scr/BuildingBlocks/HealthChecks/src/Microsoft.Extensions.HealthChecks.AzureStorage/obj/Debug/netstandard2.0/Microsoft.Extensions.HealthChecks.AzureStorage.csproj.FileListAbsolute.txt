@@ -1,0 +1,12 @@
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\bin\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AzureStorage.deps.json
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\bin\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AzureStorage.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\bin\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AzureStorage.pdb
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\bin\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\bin\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.pdb
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AzureStorage.csprojAssemblyReference.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AzureStorage.csproj.CoreCompileInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AzureStorage.AssemblyInfoInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AzureStorage.AssemblyInfo.cs
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AzureStorage.csproj.CopyComplete
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AzureStorage.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.AzureStorage\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AzureStorage.pdb

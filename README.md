@@ -1,2 +1,0 @@
-# PowerTeam
-PowerTeam

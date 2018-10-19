@@ -1,0 +1,12 @@
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBusServiceBus.deps.json
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBusServiceBus.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBusServiceBus.pdb
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBus.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBus.pdb
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.csprojAssemblyReference.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.csproj.CoreCompileInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.AssemblyInfoInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.AssemblyInfo.cs
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.csproj.CopyComplete
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.pdb
