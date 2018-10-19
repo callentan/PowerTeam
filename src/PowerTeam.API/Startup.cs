@@ -22,19 +22,9 @@ namespace PowerTeam.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            //services.AddDbContext<PTDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<PTDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConfigurationStoreConnection")));
             services.AddSingleton<IDataContext, DataContext>();
             services.AddSingleton<IDeliveryService, DeliveryService>();
-
-            // IdentityServer
-            services.AddMvcCore().AddAuthorization().AddJsonFormatters();
-            services.AddAuthentication(Configuration["Identity:Scheme"])
-                .AddIdentityServerAuthentication(options =>
-                {
-                    options.RequireHttpsMetadata = false;
-                    options.Authority = $"http://{Configuration["Identity:IP"]}:{Configuration["Identity:Port"]}";
-                    options.ApiName = Configuration["Service:Name"]; // match with configuration in IdentityServer
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

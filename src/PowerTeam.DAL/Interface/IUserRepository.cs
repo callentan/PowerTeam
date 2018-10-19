@@ -7,5 +7,7 @@ namespace PowerTeam.DAL.Interface
 {
     public interface IUserRepository : IBaseRepository<User>
     {
+        User GetUser();
+
     }
 }

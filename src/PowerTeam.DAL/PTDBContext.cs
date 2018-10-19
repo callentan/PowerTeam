@@ -10,14 +10,14 @@ namespace PowerTeam.DAL
 {
     public class PTDBContext: DbContext
     {
-        public PTDBContext(DbContextOptions<PTDBContext> options)
-        : base(options)
+        public PTDBContext(DbContextOptions<PTDBContext> options) : base(options)
         { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=webnetqasqlawp1;Initial Catalog=powerteam;Persist Security Info=False;User ID=sa;Password=ASP+Rocks4U;Connection Timeout=30;");
         }
+
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Delivery> Deliveries { get; set; }
