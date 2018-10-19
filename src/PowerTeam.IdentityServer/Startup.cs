@@ -1,13 +1,14 @@
 ﻿using System.Linq;
 using System.Reflection;
+using IdentityServer4.EntityFramework.DbContexts;
 using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PowerTeam.IdentityServer;
-using PowerTeam.IdentityServer.ConfigurationStore;
 
 namespace PowerTeam
 {
@@ -23,31 +24,25 @@ namespace PowerTeam
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ConfigurationStoreContext>(options =>
-            options.UseSqlServer(
-                Configuration.GetConnectionString("ConfigurationStoreConnection"),
-                b => b.MigrationsAssembly(typeof(Startup).GetTypeInfo().Assembly.GetName().Name)
-                )
-            );
-
-            services.AddTransient<IClientStore, ClientStore>();
-            services.AddTransient<IResourceStore, ResourceStore>();
-
-            services.AddIdentityServer()
-                .AddResourceStore<ResourceStore>()
-                .AddClientStore<ClientStore>();
-                //.AddAspNetIdentity<ApplicationUser>()
-                //.AddProfileService<IdentityWithAdditionalClaimsProfileService>();
-
-            //InMemoryConfiguration.Configuration = this.Configuration;
-
-            //services.AddIdentityServer()
-            //    .AddDeveloperSigningCredential()
-            //    .AddTestUsers(InMemoryConfiguration.GetUsers().ToList())
-            //    .AddInMemoryClients(InMemoryConfiguration.GetClients())
-            //    .AddInMemoryApiResources(InMemoryConfiguration.GetApiResources());
+            string connectionString = Configuration.GetConnectionString("ConfigurationStoreConnection");
+            var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
             services.AddMvc();
+
+            services.AddDbContext<ApplicationDbContext>(builder =>
+                 builder.UseSqlServer(connectionString, sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly)));
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddIdentityServer()
+                .AddOperationalStore(options =>
+                    options.ConfigureDbContext = builder =>
+                    builder.UseSqlServer(connectionString, sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly)))
+                .AddConfigurationStore(options =>
+                    options.ConfigureDbContext = builder =>
+                    builder.UseSqlServer(connectionString, sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly)))
+                .AddAspNetIdentity<IdentityUser>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,6 +51,8 @@ namespace PowerTeam
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseBrowserLink();
+                app.UseDatabaseErrorPage();
             }
 
             app.UseIdentityServer();
