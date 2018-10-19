@@ -1,0 +1,12 @@
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\bin\Debug\netstandard2.0\Microsoft.AspNetCore.HealthChecks.deps.json
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\bin\Debug\netstandard2.0\Microsoft.AspNetCore.HealthChecks.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\bin\Debug\netstandard2.0\Microsoft.AspNetCore.HealthChecks.pdb
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\bin\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\bin\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.pdb
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netstandard2.0\Microsoft.AspNetCore.HealthChecks.csprojAssemblyReference.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netstandard2.0\Microsoft.AspNetCore.HealthChecks.csproj.CoreCompileInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netstandard2.0\Microsoft.AspNetCore.HealthChecks.AssemblyInfoInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netstandard2.0\Microsoft.AspNetCore.HealthChecks.AssemblyInfo.cs
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netstandard2.0\Microsoft.AspNetCore.HealthChecks.csproj.CopyComplete
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netstandard2.0\Microsoft.AspNetCore.HealthChecks.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\obj\Debug\netstandard2.0\Microsoft.AspNetCore.HealthChecks.pdb

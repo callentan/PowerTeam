@@ -1,8 +1,0 @@
-C:\App\PowerTeam\SeedData\bin\Debug\netcoreapp2.1\SeedData.deps.json
-C:\App\PowerTeam\SeedData\bin\Debug\netcoreapp2.1\SeedData.runtimeconfig.json
-C:\App\PowerTeam\SeedData\bin\Debug\netcoreapp2.1\SeedData.runtimeconfig.dev.json
-C:\App\PowerTeam\SeedData\bin\Debug\netcoreapp2.1\SeedData.dll
-C:\App\PowerTeam\SeedData\obj\Debug\netcoreapp2.1\SeedData.csprojAssemblyReference.cache
-C:\App\PowerTeam\SeedData\obj\Debug\netcoreapp2.1\SeedData.csproj.CoreCompileInputs.cache
-C:\App\PowerTeam\SeedData\obj\Debug\netcoreapp2.1\SeedData.AssemblyInfoInputs.cache
-C:\App\PowerTeam\SeedData\obj\Debug\netcoreapp2.1\SeedData.AssemblyInfo.cs

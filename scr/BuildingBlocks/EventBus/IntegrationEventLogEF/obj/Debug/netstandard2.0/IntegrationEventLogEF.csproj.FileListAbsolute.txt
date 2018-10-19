@@ -1,0 +1,12 @@
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\netstandard2.0\IntegrationEventLogEF.deps.json
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\netstandard2.0\IntegrationEventLogEF.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\netstandard2.0\IntegrationEventLogEF.pdb
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\netstandard2.0\EventBus.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\netstandard2.0\EventBus.pdb
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.csprojAssemblyReference.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.csproj.CoreCompileInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.AssemblyInfoInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.AssemblyInfo.cs
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.csproj.CopyComplete
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\netstandard2.0\IntegrationEventLogEF.pdb

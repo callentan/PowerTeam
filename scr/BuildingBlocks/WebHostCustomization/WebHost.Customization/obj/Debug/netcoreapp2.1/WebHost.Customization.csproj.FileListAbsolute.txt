@@ -1,0 +1,11 @@
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.deps.json
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.runtimeconfig.json
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.runtimeconfig.dev.json
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.pdb
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.csprojAssemblyReference.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.csproj.CoreCompileInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.AssemblyInfoInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.AssemblyInfo.cs
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\WebHostCustomization\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.pdb

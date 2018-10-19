@@ -1,0 +1,9 @@
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\bin\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.deps.json
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\bin\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\bin\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.pdb
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.csprojAssemblyReference.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.csproj.CoreCompileInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AssemblyInfoInputs.cache
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.AssemblyInfo.cs
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.dll
+C:\repos\eShopOnContainers\src\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\obj\Debug\netstandard2.0\Microsoft.Extensions.HealthChecks.pdb
