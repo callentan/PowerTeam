@@ -11909,11 +11909,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\PowerTeam\\scr\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj",
+      "projectUniqueName": "C:\\repos\\PT\\PowerTeam\\scr\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj",
       "projectName": "WebHost.Customization",
-      "projectPath": "C:\\repos\\PowerTeam\\scr\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj",
+      "projectPath": "C:\\repos\\PT\\PowerTeam\\scr\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj",
       "packagesPath": "C:\\Users\\v-xiztan.FAREAST\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\PowerTeam\\scr\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\obj\\",
+      "outputPath": "C:\\repos\\PT\\PowerTeam\\scr\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
