@@ -12343,11 +12343,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\PowerTeam\\scr\\Services\\Identity\\Identity.API\\Identity.API.csproj",
+      "projectUniqueName": "C:\\repos\\PT\\PowerTeam\\scr\\Services\\Identity\\Identity.API\\Identity.API.csproj",
       "projectName": "Identity.API",
-      "projectPath": "C:\\repos\\PowerTeam\\scr\\Services\\Identity\\Identity.API\\Identity.API.csproj",
+      "projectPath": "C:\\repos\\PT\\PowerTeam\\scr\\Services\\Identity\\Identity.API\\Identity.API.csproj",
       "packagesPath": "C:\\Users\\v-xiztan.FAREAST\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\PowerTeam\\scr\\Services\\Identity\\Identity.API\\obj\\",
+      "outputPath": "C:\\repos\\PT\\PowerTeam\\scr\\Services\\Identity\\Identity.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12366,8 +12366,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\repos\\PowerTeam\\scr\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj": {
-              "projectPath": "C:\\repos\\PowerTeam\\scr\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj"
+            "C:\\repos\\PT\\PowerTeam\\scr\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj": {
+              "projectPath": "C:\\repos\\PT\\PowerTeam\\scr\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj"
             }
           }
         }

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using PowerTeam.Services.Identity.API.Certificates;
 using PowerTeam.Services.Identity.API.Data;
 using PowerTeam.Services.Identity.API.Models;
 using PowerTeam.Services.Identity.API.Services;
@@ -34,7 +35,6 @@ namespace PowerTeam.Services.Identity.API
                                      sqlServerOptionsAction: sqlOptions =>
                                      {
                                          sqlOptions.MigrationsAssembly(typeof(Startup).GetTypeInfo().Assembly.GetName().Name);
-                                         //Configuring Connection Resiliency: https://docs.microsoft.com/en-us/ef/core/miscellaneous/connection-resiliency 
                                          sqlOptions.EnableRetryOnFailure(maxRetryCount: 15, maxRetryDelay: TimeSpan.FromSeconds(30), errorNumbersToAdd: null);
                                      }));
 
@@ -58,7 +58,7 @@ namespace PowerTeam.Services.Identity.API
                 x.IssuerUri = "null";
                 x.Authentication.CookieLifetime = TimeSpan.FromHours(2);
             })
-            //.AddSigningCredential(Certificate.Get())
+            .AddSigningCredential(Certificate.Get())
             .AddAspNetIdentity<ApplicationUser>()
             .AddConfigurationStore(options =>
             {
@@ -66,7 +66,6 @@ namespace PowerTeam.Services.Identity.API
                                     sqlServerOptionsAction: sqlOptions =>
                                     {
                                         sqlOptions.MigrationsAssembly(migrationsAssembly);
-                                        //Configuring Connection Resiliency: https://docs.microsoft.com/en-us/ef/core/miscellaneous/connection-resiliency 
                                         sqlOptions.EnableRetryOnFailure(maxRetryCount: 15, maxRetryDelay: TimeSpan.FromSeconds(30), errorNumbersToAdd: null);
                                     });
             })
@@ -76,8 +75,7 @@ namespace PowerTeam.Services.Identity.API
                                 sqlServerOptionsAction: sqlOptions =>
                                 {
                                     sqlOptions.MigrationsAssembly(migrationsAssembly);
-                                        //Configuring Connection Resiliency: https://docs.microsoft.com/en-us/ef/core/miscellaneous/connection-resiliency 
-                                        sqlOptions.EnableRetryOnFailure(maxRetryCount: 15, maxRetryDelay: TimeSpan.FromSeconds(30), errorNumbersToAdd: null);
+                                    sqlOptions.EnableRetryOnFailure(maxRetryCount: 15, maxRetryDelay: TimeSpan.FromSeconds(30), errorNumbersToAdd: null);
                                 });
             })
             .Services.AddTransient<IProfileService, ProfileService>();
@@ -111,20 +109,7 @@ namespace PowerTeam.Services.Identity.API
                 app.UsePathBase(pathBase);
             }
 
-
-#pragma warning disable CS1998 // Async method lacks 'await' operators and will run synchronously
-            app.Map("/liveness", lapp => lapp.Run(async ctx => ctx.Response.StatusCode = 200));
-#pragma warning restore CS1998 // Async method lacks 'await' operators and will run synchronously
-
             app.UseStaticFiles();
-
-
-            // Make work identity server redirections in Edge and lastest versions of browers. WARN: Not valid in a production environment.
-            app.Use(async (context, next) =>
-            {
-                context.Response.Headers.Add("Content-Security-Policy", "script-src 'unsafe-inline'");
-                await next();
-            });
 
             app.UseForwardedHeaders();
             // Adds IdentityServer

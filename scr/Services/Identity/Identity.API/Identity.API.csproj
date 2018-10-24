@@ -5,6 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Certificate\idsrv3test.pfx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Certificate\idsrv3test.pfx">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Data\" />
     <Folder Include="Extensions\" />
